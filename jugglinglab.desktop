@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Encoding=UTF-8
-Exec=/usr/share/jugglinglab/JugglingLab.sh
+Exec=/usr/share/jugglinglab/JugglingLab
 Icon=jugglinglab
 StartupNotify=false
 Categories=Education;
