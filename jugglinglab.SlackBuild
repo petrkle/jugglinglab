@@ -2,7 +2,7 @@
 
 # Slackware build script for Juggling Lab
 
-# Petr Kletecka admin@zonglovani.info <2014>
+# Petr Kletecka admin@zonglovani.info <2017>
 
 PRGNAM=jugglinglab
 VERSION=${VERSION:-0.6.2}
