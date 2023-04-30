@@ -2,10 +2,10 @@
 
 # Slackware build script for Juggling Lab
 
-# Petr Kletecka admin@zonglovani.info <2017>
+# Petr Kletecka petr@kle.cz <2023>
 
 PRGNAM=jugglinglab
-VERSION=${VERSION:-0.6.2}
+VERSION=${VERSION:-1.6.5}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
@@ -22,8 +22,8 @@ rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
 rm -rf $PRGNAM
-tar xvf $CWD/JugglingLab-${VERSION}_other.tar.gz
-mv JugglingLab $PRGNAM
+tar xvf $CWD/JugglingLab-${VERSION}.tar.gz
+mv "Juggling Lab" $PRGNAM
 cd $PRGNAM
 chown -R root:root .
 find -L . \
